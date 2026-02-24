@@ -1,6 +1,6 @@
-# flowsint-app
+# Claw Orchestrator
 
-The folder for the flowsint client, a web application built with Vite and React. The main libraries used are:
+Graph analysis and intelligence platform built with Vite and React. The main libraries used are:
 
 - TanstackQuery
 - TanstackRouter
@@ -38,3 +38,7 @@ $ npm run start
 ```
 
 This will start the production build locally.
+
+## Attribution
+
+This project is built upon [Flowsint](https://github.com/reconurge/flowsint) by reconurge/DexterMorgan, licensed under the Apache-2.0 License.

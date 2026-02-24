@@ -1,12 +1,12 @@
 {
-  "name": "flowsint-app",
-  "productName": "Flowsint",
+  "name": "claw-orchestrator",
+  "productName": "Claw Orchestrator",
   "license": "Apache-2.0",
   "version": "1.0.0",
   "type": "module",
   "description": "Graph analysis and intelligence platform to help you discover hidden relationships and insights.",
-  "author": "DexterMorgan",
-  "homepage": "https://www.flowsint.io/",
+  "author": "Ian Pilon",
+  "homepage": "https://github.com/ianpilon/Claw-Orchestrator",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",

@@ -12,7 +12,7 @@ interface TutorialContextValue {
 
 export const TutorialContext = createContext<TutorialContextValue | null>(null);
 
-const STORAGE_KEY = 'flowsint-tutorial-completed';
+const STORAGE_KEY = 'claw-tutorial-completed';
 
 interface TutorialProviderProps {
   children: React.ReactNode;

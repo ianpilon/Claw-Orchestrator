@@ -155,10 +155,10 @@ export function InvestigationMenu({ investigationId, sketchId }: { investigation
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
-          <a className='h-full w-full' target='_blank' href="https://github.com/reconurge/flowsint">GitHub</a>
+          <a className='h-full w-full' target='_blank' href="https://github.com/ianpilon/Claw-Orchestrator">GitHub</a>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <a className='h-full w-full' target='_blank' href="https://github.com/reconurge/flowsint/issues">Support</a>
+          <a className='h-full w-full' target='_blank' href="https://github.com/ianpilon/Claw-Orchestrator/issues">Support</a>
         </DropdownMenuItem>
         <DropdownMenuItem disabled>API</DropdownMenuItem>
         <DropdownMenuSeparator />
