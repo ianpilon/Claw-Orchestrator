@@ -11,6 +11,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 
 const router = createRouter({
   routeTree,
+  basepath: import.meta.env.BASE_URL,
   context: {
     ...getQueryContext()
   },
