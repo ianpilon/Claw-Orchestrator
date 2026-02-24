@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
   const apiUrl = env.VITE_API_URL
 
   return {
+    base: '/Claw-Orchestrator/',
     plugins: [
     tailwindcss(),
     {
