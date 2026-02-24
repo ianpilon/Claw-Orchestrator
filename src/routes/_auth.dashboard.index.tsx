@@ -1,14 +1,5 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { InvestigationSkeleton } from '@/components/dashboard/investigation/investigation-skeleton'
-import { DashboardPage } from '@/components/dashboard/overview/dashboard-page'
+import { Navigate, createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/_auth/dashboard/')({
-  component: Page,
-  pendingComponent: InvestigationSkeleton
+  component: () => <Navigate to={'/dashboard/investigations/1/graph/sketch-1'} />
 })
-
-function Page() {
-  return (
-    <DashboardPage />
-  )
-}
