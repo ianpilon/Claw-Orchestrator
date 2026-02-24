@@ -106,7 +106,7 @@ function FloatingChat() {
                     onClick={toggleChat}
                   >
                     {/* <Sparkles className='!h-5 !w-5' /> */}
-                    <img src="/icon.png" alt="Claw Orchestrator" className="h-12 w-12 object-contain" />
+                    <img src={`${import.meta.env.BASE_URL}icon.png`} alt="Claw Orchestrator" className="h-12 w-12 object-contain" />
                   </Button>
                 </div>
               </TooltipTrigger>
@@ -202,7 +202,7 @@ function FloatingChat() {
                               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/10 rounded-full blur-xl animate-pulse"></div>
                               <div className="relative bg-gradient-to-br from-primary/10 to-primary/5 rounded-full p-4 border border-primary/20">
                                 <img
-                                  src="/icon.png"
+                                  src={`${import.meta.env.BASE_URL}icon.png`}
                                   alt="Claw Orchestrator"
                                   className="h-12 w-12 object-cover"
                                 />

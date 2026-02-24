@@ -41,7 +41,7 @@ export const TopNavbar = memo(() => {
     >
       <div className="flex items-center gap-4">
         <Link to="/dashboard" className="flex items-center gap-2">
-          <img src="/icon.png" alt="Claw Orchestrator" className="h-8 w-8" />
+          <img src={`${import.meta.env.BASE_URL}icon.png`} alt="Claw Orchestrator" className="h-8 w-8" />
           <span className="text-lg font-semibold">Claw Orchestrator</span>
         </Link>
         <div className="hidden lg:flex items-center gap-2">
